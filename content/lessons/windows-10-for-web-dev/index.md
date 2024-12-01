@@ -151,7 +151,7 @@ As a web developer you need Node.js. You can manage multiple versions with [NVM]
 
 ### Bash Install
 
-If using bash, install NVM like so:
+If using Bash, install NVM like so:
 
 {{< file "terminal" "command line" >}}
 ```text
@@ -160,7 +160,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 ### Zsh Install
 
-If using Zsh, open the `~/.zshrc` file and update the plugins:
+If using Zsh, open the `~/.zshrc` file and update the plugins as follows:
 
 ```bash
 plugins=(git nvm)
