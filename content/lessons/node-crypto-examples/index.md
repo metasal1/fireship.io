@@ -73,7 +73,7 @@ console.log(match ? '✔️  good password' : '❌  password does not match');
 
 Hashes are great for making passwords unreadable, but because they always produce the same output, they are not very secure. A salt is a random string that is added to the input before hashing. This makes the hash more unique and harder to guess.
 
-Users often to use weak passwords, like "password123". When a database is compromised, the attacker can easily find the value of an unsalted hash by searching precomputed [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) of common hashes - salting fixes this. 
+Users often use weak passwords, like "password123". When a database is compromised, the attacker can easily find the value of an unsalted hash by searching precomputed [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) of common hashes - salting fixes this. 
 
 - Used to make a hash harder to guess
 - Appends a random string to the input before hashing
